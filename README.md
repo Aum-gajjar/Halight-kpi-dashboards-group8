@@ -115,11 +115,11 @@ halight-business-analytics/
 
    Create a `.env` file in the project root directory:
    ```env
-   AWS_Acess_Key_ID=your_aws_access_key_id
-   AWS_Secret_Access_Key=your_aws_secret_access_key
-   AWS_REGION=us-east-1
-   ATHENA_S3_OUTPUT=s3://your-output-bucket/
-   ATHENA_DATABASE=s3_atmos_stclair
+    AWS_Acess_Key_ID=your_aws_access_key_id
+    AWS_Secret_Access_Key=your_aws_secret_access_key
+    AWS_REGION= your region
+    ATHENA_S3_OUTPUT= Output Path
+    ATHENA_DATABASE= Your Database 
    ```
 
 5. **Run the Streamlit dashboard**
